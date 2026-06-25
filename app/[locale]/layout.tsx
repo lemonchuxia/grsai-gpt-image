@@ -9,6 +9,7 @@ import { routing } from "@/i18n/routing";
 import { Metadata } from "next";
 import config from "@/config";
 import { Analytics } from "@vercel/analytics/react";
+export const runtime = 'edge';
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
